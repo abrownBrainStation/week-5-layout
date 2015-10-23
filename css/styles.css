@@ -4,9 +4,9 @@ body
 }
 
 div, h1, h2, h3, h4, h5, a, ul, li {
-	/* This style forces a black border on most elements in this assignment 
+	/* This style forces a black border on most elements in this assignment
 	   Uncomment it to help you visualize the document structure */
-	
+
 	/*
 	border: 2px solid black ;
 	box-sizing:border-box;
@@ -24,3 +24,22 @@ h1, h2, h3, h4, h5, p, a, body
 
 /* BEGIN YOUR CHANGES HERE */
 
+.btn {
+  border-radius: 25px;
+  border-color: #F06;
+  color: white;
+  background-color: #F06;
+  padding: 10px 40px;
+}
+
+.navLogin {
+  float: right;
+  margin-top: 18px;
+  margin-right: 70px;
+}
+
+.navSubscribe {
+  float: right;
+  margin-top: 18px;
+  margin-right: 15px;
+}
